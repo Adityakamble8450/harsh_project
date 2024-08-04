@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon dotenv/config  src/index.js"
+    "dev": "nodemon dotenv/config  src/index.js"
   },
   "author": "",
   "license": "ISC",
