@@ -92,7 +92,7 @@ const DashBoard = () => {
         if(user?.token) fetchTasks()
         fetchPriorityOptions();
         fetchStatusOption();
-    }, [user?.token]);
+    }, [user.token], tasks);
 
     const handleLogout = () => {
         setuser({

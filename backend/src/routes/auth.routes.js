@@ -18,6 +18,7 @@ router.route('/status-options').get((req,res)=>{
         statusoption
     })
 })
+
 router.route('/priority-options').get((req,res)=>{
     const priorityoption = ["Medium", 'Low',"Urgent"]
     res.json({success: true, priorityoption})
