@@ -1,1 +1,0 @@
-# mern-trello-task-management
